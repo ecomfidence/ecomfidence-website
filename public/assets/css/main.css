@@ -4045,7 +4045,7 @@ input.main-search-input::placeholder {
 .scrolling-wrap .comm {
     display: flex;
     align-items: center;
-    animation: scroll 60s linear infinite;
+    animation: scroll 20s linear infinite;
     gap: 30px;
     cursor: pointer;
 }
