@@ -39,7 +39,7 @@ export default function Footer4() {
         <>
 <div className="container position-relative">
 <div className="footer-client mt-20">
-  <h5 className="trusted white">We Partners </h5>
+  <h5 className="trusted theme-clr text-uppercase">We are partnered with</h5>
   <div className="swiper trusted-inner">
     <Swiper {...swiperOptions} className="swiper-wrapper">
       <SwiperSlide>
