@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // Ensures that Next.js exports static files
-    trailingSlash: true, // Optional: Adds trailing slashes to all URLs (e.g., `/about/` instead of `/about`)
-  }
+    output: 'export'
+  };
   
-  module.exports = nextConfig
+  module.exports = nextConfig;
+  
   
 
 // /** @type {import('next').NextConfig} */

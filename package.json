@@ -7,8 +7,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css",
-        "export": "next export"
+        "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
     },
     "dependencies": {
         "@cloudflare/pages-plugin-static-forms": "^1.0.3",
