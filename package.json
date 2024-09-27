@@ -10,7 +10,6 @@
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
     },
     "dependencies": {
-        "@cloudflare/pages-plugin-static-forms": "^1.0.3",
         "aos": "^2.3.4",
         "next": "14.1.4",
         "react": "18.2.0",
