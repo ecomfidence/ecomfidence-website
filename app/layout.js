@@ -27,6 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head><meta name="facebook-domain-verification" content="0ecru9hlqcyfzucoterpz3oalg0152" /></head>
             <body className={`${manrope.variable} ${jakarta.variable} position-relative bg2-clr`}>{children}</body>
         </html>
     )
