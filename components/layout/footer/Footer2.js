@@ -144,7 +144,7 @@ export default function Footer2() {
                                 © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">Xstar</Link>
                             </p>
                             <Link href="/" className="footer-logov1 m-md-0 m-auto">
-                                <img src="/assets/img/logo/ecomfidence-logo.svg" alt="img" />
+                                <img src="/assets/img/logo/ecomfidence-logo.svg" className="w-100" alt="img" />
                             </Link>
                             <Link href="/#" className="pra-clr">
                                 Terms &amp; Conditions Privacy Policy

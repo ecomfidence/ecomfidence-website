@@ -9,7 +9,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                 </div>
                 <div className="sub-contact-wrapper d-grid">
                     <Link href="/" className="side-logo">
-                        <img src="/assets/img/logo/ecomfidence-logo.svg" alt="img" />
+                        <img src="/assets/img/logo/ecomfidence-logo.svg" className="w-75" alt="img" />
                     </Link>
                     <p>
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut
