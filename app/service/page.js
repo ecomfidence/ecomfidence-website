@@ -14,7 +14,7 @@ export default function Service() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Our Services">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Our Services">
                 <div>
                     <section className="service-section pt-space pb-space">
                         <div className="container">

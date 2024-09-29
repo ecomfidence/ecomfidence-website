@@ -10,7 +10,7 @@ export default function Faq() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="FAQ’S">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="FAQ’S">
                 <section className="Faqs-section pt-space pb-space">
                     <div className="container">
                         <div className="faqs-title text-center mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-9 mb-sm-8 mb-7">

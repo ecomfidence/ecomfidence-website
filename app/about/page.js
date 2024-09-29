@@ -8,7 +8,7 @@ export default function About() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={5} breadcrumbTitle="About">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="About">
                 <div>
                     <AboutEcom2 />
                     <AboutEcom />

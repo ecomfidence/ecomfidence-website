@@ -6,7 +6,7 @@ export default function Oops() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Error Page">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Error Page">
                 <section className="blog-grid pt-space pb-space">
                     <div className="container">
                         <div className="row justify-content-center">

@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={5} breadcrumbTitle="Contact Us">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Contact Us">
                 <ContactDetailEcom />
             </Layout>
         </>

@@ -7,7 +7,7 @@ export default function Pricing() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Pricing Plans">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Pricing Plans">
                 <section className="pricing-section pt-space pb-space position-relative">
                     <div className="container">
                         <div className="pricing-title mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-9 mb-sm-8 mb-7">

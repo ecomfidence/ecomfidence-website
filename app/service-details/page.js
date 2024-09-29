@@ -41,7 +41,7 @@ export default function ServiceDetails() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Services Details">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Services Details">
                 <section className="Service-details pt-space pb-space">
                     <div className="container">
                         <div className="service-details-header bb-border pb-xxl-9 pb-xl-7 pb-6">

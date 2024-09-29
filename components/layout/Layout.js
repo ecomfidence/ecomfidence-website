@@ -13,6 +13,7 @@ import Footer3 from './footer/Footer3'
 import Footer4 from './footer/Footer4'
 import Header1 from "./header/Header1"
 import Header2 from './header/Header2'
+import HeaderEcom from './header/HeaderEcom'
 
 export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children }) {
     const [scroll, setScroll] = useState(0)
@@ -50,9 +51,10 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
     }, [])
     return (
         <><div id="top" />
-            {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} />}
+            {!headerStyle && <HeaderEcom scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} />}
             {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} /> : null}
             {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} /> : null}
+            {headerStyle == 3 ? <HeaderEcom scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSidebar={isSidebar} handleSidebar={handleSidebar} isSearch={isSearch} handleSearch={handleSearch} /> : null}
 
             <Search isSearch={isSearch} handleSearch={handleSearch} />
 
@@ -62,7 +64,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
                 {children}
             </main>
 
-            {!footerStyle && < Footer1 />}
+            {!footerStyle && < FooterEcom />}
             {footerStyle == 1 ? < Footer1 /> : null}
             {footerStyle == 2 ? < Footer2 /> : null}
             {footerStyle == 3 ? < Footer3 /> : null}
