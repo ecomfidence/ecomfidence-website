@@ -91,7 +91,7 @@ export default function ContactDetail() {
                                             <input type="email" placeholder="Email" />
                                         </div>
                                         <div className="col-lg-12">
-                                            <select class="form-select">
+                                            <select className="form-select">
                                                 <option value={1}>
                                                     Subject
                                                 </option>
