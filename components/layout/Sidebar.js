@@ -1,6 +1,5 @@
 import Link from 'next/link'
-import ThemeSwitch from '../elements/ThemeSwitch'
-import SocialLinksEcom2 from '../elements/SocialLinksEcom2'
+import SocialLinksEcom1 from '../elements/SocialLinksEcom1'
 export default function Sidebar({ isSidebar, handleSidebar }) {
     return (
         <>
@@ -48,7 +47,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                             </div>
                         </div>
                     </div>
-                    <SocialLinksEcom2 />
+                    <SocialLinksEcom1 />
                     <Link href="/contact" className="d-flex cmn-btn cmn-border justify-content-center fw-500 align-items-center gap-2 py-xl-3 py-2 px-2 rounded">
                         <span className="icons">
                             <i className="fas fa-arrow-up white" />
