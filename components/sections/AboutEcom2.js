@@ -5,7 +5,7 @@ const CounterUp = dynamic(() => import('../elements/CounterUp'), {
 import Link from "next/link"
 import VideoPopup from "../elements/VideoPopup"
 
-export default function About2() {
+export default function AboutEcom2() {
     return (
         <>
 

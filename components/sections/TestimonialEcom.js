@@ -23,7 +23,7 @@ const swiperOptions = {
         },
     },
 }
-export default function Testimonial4() {
+export default function TestimonialEcom() {
     return (
         <>
 

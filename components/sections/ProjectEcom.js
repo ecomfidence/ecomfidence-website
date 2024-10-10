@@ -3,7 +3,7 @@ const CounterUp = dynamic(() => import('../elements/CounterUp'), {
     ssr: false,
 })
 
-export default function Project1() {
+export default function ProjectEcom() {
     return (
         <>
 

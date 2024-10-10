@@ -26,7 +26,7 @@ const swiperOptions = {
     },
 }
 
-export default function Protfolio1() {
+export default function ProtfolioEcom() {
     return (
         <>
 
@@ -41,19 +41,19 @@ export default function Protfolio1() {
                                 Check Our <span className="fw-400 theme-clr">Shopify</span> Portfolio
                             </h2>
                         </div>
-                        <Link href="/team" className="radius-btn d-inline-flex text-capitalize radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
+                        {/* <Link href="/team" className="radius-btn d-inline-flex text-capitalize radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
                             view all teams
                             <span className="rot60 d-inline-block">
                                 <i className="fas fa-arrow-up theme-clr" />
                             </span>
-                        </Link>
+                        </Link> */}
                     </div>
                     <div className="swiper protfolio-solutionwrap">
                         <Swiper {...swiperOptions} className="swiper-wrapper">
                             <SwiperSlide>
                                 <div className="protfolio-solution-item">
                                     <div className="thumb position-relative mb-xxl-7 mb-5">
-                                        <img src="/assets/img/banner/solution1.png" alt="img" />
+                                        <img src="/assets/img/banner/1.png" alt="img" />
                                         <Link href="/service" className="mission-v4-btn d-center">
                                             <span className="rot60">
                                                 <i className="fa-solid fa-arrow-up" />
@@ -76,7 +76,7 @@ export default function Protfolio1() {
                             <SwiperSlide>
                                 <div className="protfolio-solution-item">
                                     <div className="thumb position-relative mb-xxl-7 mb-5">
-                                        <img src="/assets/img/banner/solution1.png" alt="img" />
+                                        <img src="/assets/img/banner/2.png" alt="img" />
                                         <Link href="/service" className="mission-v4-btn d-center">
                                             <span className="rot60">
                                                 <i className="fa-solid fa-arrow-up" />

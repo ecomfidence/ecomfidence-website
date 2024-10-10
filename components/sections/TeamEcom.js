@@ -14,7 +14,7 @@ const toltOptions = {
     easing: "cubic-bezier(.03,.98,.52,.99)",
 }
 
-export default function Team2() {
+export default function TeamEcom() {
     return (
         <>
 
@@ -29,12 +29,12 @@ export default function Team2() {
                                 Your <span className="fw-400 theme-clr">Shopify</span> Team
                             </h2>
                         </div>
-                        <Link href="/team" className="radius-btn d-inline-flex text-capitalize radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
+                        {/* <Link href="/team" className="radius-btn d-inline-flex text-capitalize radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
                             view all teams
                             <span className="rot60 d-inline-block">
                                 <i className="fas fa-arrow-up theme-clr" />
                             </span>
-                        </Link>
+                        </Link> */}
                     </div>
                     <div className="row g-xxl-7 g-xl-5 g-4 justify-content-center">
                         <Tilt options={toltOptions} className="col-xl-3 col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in-left" data-aos-duration={1400}>
@@ -46,8 +46,8 @@ export default function Team2() {
                                             Ceo
                                         </span>
                                         <h5>
-                                            <Link href="/team-details" className="htheme white-clr">
-                                                esther Howard
+                                            <Link href="#" className="htheme white-clr">
+                                                Sara
                                             </Link>
                                         </h5>
                                     </div>
@@ -102,8 +102,8 @@ export default function Team2() {
                                             Shopify Expert
                                         </span>
                                         <h5>
-                                            <Link href="/team-details" className="htheme white-clr">
-                                                Albert Flores
+                                            <Link href="#" className="htheme white-clr">
+                                                Adam
                                             </Link>
                                         </h5>
                                     </div>
@@ -158,8 +158,8 @@ export default function Team2() {
                                             Shopify Developer
                                         </span>
                                         <h5>
-                                            <Link href="/team-details" className="htheme white-clr">
-                                                Darlene Robertson
+                                            <Link href="#" className="htheme white-clr">
+                                                Elias
                                             </Link>
                                         </h5>
                                     </div>
@@ -211,11 +211,11 @@ export default function Team2() {
                                     <img src="/assets/img/team/team4.png" alt="img" className="overflow-hidden w-100" />
                                     <div className="namebox py-xxl-5 py-xl-4 py-sm-3 py-2 px-3 text-center">
                                         <span className="text-capitalize white-clr d-block mb-2">
-                                            Graphic Gesigner
+                                            Graphic Designer
                                         </span>
                                         <h5>
-                                            <Link href="/team-details" className="htheme white-clr">
-                                                Marvin Mckinney
+                                            <Link href="#" className="htheme white-clr">
+                                                Maria
                                             </Link>
                                         </h5>
                                     </div>

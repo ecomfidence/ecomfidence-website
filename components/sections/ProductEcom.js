@@ -1,6 +1,6 @@
 
 
-export default function Product1() {
+export default function ProductEcom() {
     return (
         <>
 

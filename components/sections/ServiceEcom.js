@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-export default function Service1() {
+export default function ServiceEcom() {
     const [isAccordion, setIsAccordion] = useState(1)
     const handleAccordion = (key) => {
         setIsAccordion(prevState => prevState === key ? null : key)
@@ -21,12 +21,12 @@ export default function Service1() {
                                 Comprehensive <span className="fw-400 theme-clr">Shopify</span> Solutions
                             </h2>
                         </div>
-                        <Link href="/service" className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
+                        {/* <Link href="/service" className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
                             View All Service
                             <span className="rot60 d-inline-block">
                                 <i className="fas fa-arrow-up theme-clr" />
                             </span>
-                        </Link>
+                        </Link> */}
                     </div>
                     {/*Service Tabing section*/}
                     <div className="row g-xxl-6 g-4">
@@ -42,7 +42,7 @@ export default function Service1() {
                                                 </span>
                                             </span>
                                             <span className="mtitle d-block mt-6">
-                                                <Link href="/service-details" className="white-clr whitehover">
+                                                <Link href="#" className="white-clr whitehover">
                                                     Launch & Create
                                                 </Link>
                                             </span>
@@ -75,7 +75,7 @@ export default function Service1() {
                                                 </li>
                                             </ul>
                                             <div className="tab-remove-thumb">
-                                                <img src="/assets/img/service/tab1.png" alt="img" />
+                                                <img src="/assets/img/service/tab1.webp" alt="img" />
                                             </div>
                                         </div>
                                     </div>
@@ -92,7 +92,7 @@ export default function Service1() {
                                                 </span>
                                             </span>
                                             <span className="mtitle d-block mt-6">
-                                                <Link href="/service-details" className="white-clr whitehover">
+                                                <Link href="#" className="white-clr whitehover">
                                                     Run & Manage
                                                 </Link>
                                             </span>
@@ -124,7 +124,7 @@ export default function Service1() {
                                                 </li>
                                             </ul>
                                             <div className="tab-remove-thumb">
-                                                <img src="/assets/img/service/tab2.png" alt="img" />
+                                                <img src="/assets/img/service/tab2.webp" alt="img" />
                                             </div>
                                         </div>
                                     </div>
@@ -141,7 +141,7 @@ export default function Service1() {
                                                 </span>
                                             </span>
                                             <span className="mtitle d-block mt-6">
-                                                <Link href="/service-details" className="white-clr whitehover">
+                                                <Link href="#" className="white-clr whitehover">
                                                     Boost & Optimize
                                                 </Link>
                                             </span>
@@ -173,7 +173,7 @@ export default function Service1() {
                                                 </li>
                                             </ul>
                                             <div className="tab-remove-thumb">
-                                                <img src="/assets/img/service/tab3.png" alt="img" />
+                                                <img src="/assets/img/service/tab3.webp" alt="img" />
                                             </div>
                                         </div>
                                     </div>

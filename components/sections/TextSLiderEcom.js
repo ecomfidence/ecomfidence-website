@@ -1,6 +1,6 @@
 
 
-export default function TextSLider4() {
+export default function TextSLiderEcom() {
     return (
         <>
 

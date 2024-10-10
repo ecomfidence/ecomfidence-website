@@ -1,6 +1,6 @@
 
 
-export default function About3() {
+export default function AboutEcom3() {
     return (
         <>
 

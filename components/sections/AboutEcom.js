@@ -4,7 +4,7 @@ const CounterUp = dynamic(() => import('../elements/CounterUp'), {
     ssr: false,
 })
 
-export default function About1() {
+export default function AboutEcom() {
     return (
         <>
 
