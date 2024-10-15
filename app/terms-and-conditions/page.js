@@ -90,13 +90,6 @@ export default function TermsAndConditions() {
                                                     </li>
                                                 </ul>
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
                                                     1.7 Changes and Revisions</h3>
                                                 <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
                                                     <li className="d-flex align-items-center gap-2">
@@ -127,24 +120,31 @@ export default function TermsAndConditions() {
                                                     </li>
                                                 </ul>
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
+                                                    1.10 Technical Compatibility</h3>
                                                 <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
                                                     <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
+                                                        <i className="fas fa-chevron-right" /> Clients must ensure that the website is hosted on a server that meets Ecomfidence's development server specifications. We are not liable for any errors or loss of functionality due to server incompatibility.
                                                     </li>
                                                 </ul>
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
+                                                    1.11 Training</h3>
                                                 <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
                                                     <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
+                                                        <i className="fas fa-chevron-right" /> Post-website completion, training is available at $80 per hour for telephonic sessions and $550 per day for face-to-face training within the Sydney metro area. For clients outside this area, additional travel, lodging, and boarding costs will apply.
                                                     </li>
                                                 </ul>
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
+                                                    1.12 Website Security</h3>
                                                 <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
                                                     <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
+                                                        <i className="fas fa-chevron-right" /> Ecomfidence guarantees that the code provided will be free from viruses, malware, and software breaches. Once the website is published on the client's servers, the client is responsible for its security.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.13 Project Hold</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Clients can request a project hold for up to 6 months with a one-time payment of $100. If the hold exceeds 6 months, Ecomfidence may terminate the project without refunding any previous payments.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -152,10 +152,76 @@ export default function TermsAndConditions() {
                                                 <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
                                                     2. Project Terms and Conditions</h2>
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
+                                                    2.1 Understanding</h3>
                                                 <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
                                                     <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
+                                                        <i className="fas fa-chevron-right" /> Clients should communicate unique requirements, anticipated challenges, and complex details to Ecomfidence to manage expectations effectively. Vague requirements may lead to discrepancies, affecting deadlines and incurring additional costs.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.2 Scope Creep</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> All requirements must be clearly defined and will be documented in a proposal with cost and time estimates. Any subsequent additions or changes will incur additional costs and affect the delivery date.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.3 Managing Expectations</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Clients should communicate unique requirements, anticipated challenges, and complex details to Ecomfidence to manage expectations effectively. Vague requirements may lead to discrepancies, affecting deadlines and incurring additional costs.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.4 Unforeseen Circumstances</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Ecomfidence will strive to minimize delays due to unforeseen circumstances beyond our control. We will work to minimize these delays but cannot be held liable for them.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.5 Third-Party Components</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Ecomfidence is not responsible for the functionality of third-party products, software, or components integrated into the website. Clients are advised to take regular backups to minimize downtime.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.6 Copyrights</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Ecomfidence CMS is a proprietary product, and Ecomfidence retains the copyrights to all code written for the client. The CMS cannot be transferred to an external host, and clients cannot access the software codes without a formal agreement.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Ecomfidence reserves the right to use custom-built software for the client's project, which is included in the project costs unless specified otherwise.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.7 Domain and Hosting</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Domain registration and hosting charges are not included in project costs unless stated otherwise. Ecomfidence can provide hosting solution references and quotations upon request.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.8 Hosting Solutions</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> If clients arrange a third-party hosting provider, Ecomfidence must be involved in the hosting and database selection process. Full access to hosting servers is required for testing and deployment, and Ecomfidence is not liable for issues caused by the hosting company.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.9 Test Access</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Ecomfidence reserves the right to deny clients or third parties access to its test servers.
+                                                    </li>
+                                                </ul>
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.10 Tech Support</h3>
+                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Ecomfidence provides technical support for a period of 30 days after website launch. Additional support can be purchased at $80 per hour.
                                                     </li>
                                                 </ul>
                                             </div>
