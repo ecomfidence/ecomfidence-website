@@ -152,7 +152,7 @@ export default function FooterEcom() {
                                 © All Copyright {new Date().getFullYear()} by <Link href="/" className=" white-clr htheme">ecomfidence</Link>
                             </p>
                             <div className="d-flex gap-3">
-                                <Link href="/#" className="pra-clr htheme">
+                                <Link href="/terms-and-conditions" className="pra-clr htheme">
                                     Terms &amp; Conditions
                                 </Link>
                                 <Link href="/privacy-policy/" className="pra-clr htheme">

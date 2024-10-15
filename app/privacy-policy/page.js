@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="Privacy policy">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Privacy policy">
                 <section className="blog-details pt-space pb-space">
                     <div className="container">
                         <div className="row g-5">
@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
                                 <div className="blog-post-details mb-xxl-10 mb-xl-8 mb-lg-7 mb-6">
                                     <div className="single-blog-post">
                                         <div className="post-featured-thumb w-100 mb-xxl-30 mb-xl-6 mb-5" data-aos="zoom-in" data-aos-duration={1400}>
-                                            <img src="/assets/img/blog/blog-details-b1.png" alt="img" className="w-100" />
+                                            <img src="/assets/img/importantPages/privacyPolicy.webp" alt="img" className="w-100" />
                                         </div>
                                         <div className="post-content">
                                             <div className="post-marry d-flex align-items-center gap-xxl-8 gap-xl-6 gap-4 gap-3 mb-xxl-5 mb-xl-4 mb-lg-3 mb-3" data-aos="fade-left" data-aos-duration={1500}>
@@ -33,17 +33,17 @@ export default function PrivacyPolicy() {
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
                                                     Introduction</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                At Ecomfidence, we respect your privacy and are committed to protecting your personal data. 
-                                                This Privacy Policy explains how we collect, use, and share your personal information when 
-                                                you visit our website, ecomfidence.com, or interact with our services. By using our website or 
-                                                services, you agree to the terms of this Privacy Policy.
+                                                    At Ecomfidence, we respect your privacy and are committed to protecting your personal data. 
+                                                    This Privacy Policy explains how we collect, use, and share your personal information when 
+                                                    you visit our website, ecomfidence.com, or interact with our services. By using our website or 
+                                                    services, you agree to the terms of this Privacy Policy.
                                                 </p>
                                             </div>
                                             <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
                                                     Scope</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                This Privacy Policy applies to all visitors, users, and customers of Ecomfidence, including those who:
+                                                    This Privacy Policy applies to all visitors, users, and customers of Ecomfidence, including those who:
                                                 </p>
                                                 <ol className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
                                                     <li className="d-flex align-items-center gap-2">
@@ -83,232 +83,176 @@ export default function PrivacyPolicy() {
                                             </div>
                                             <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
+                                                    How We Collect Personal Data</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
+                                                    We collect personal data through:
                                                 </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
+                                                <ol className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Direct Input: when you fill out forms, send us emails, or provide information through phone or chat
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Cookies and Tracking Technologies: we use cookies, pixels, and other tracking technologies to collect website usage data
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Third-Party Services: we may collect data from third-party services, such as Shopify, Google Analytics, or social media platforms
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
+                                                    How We Use Personal Data</h3>
+                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    We use personal data for:
+                                                </p>
+                                                <ol className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Providing Services: to deliver our Shopify development, consulting, and support services
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Communication: to respond to your inquiries, requests, and support tickets
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Marketing: to send newsletters, promotional emails, and other marketing materials (with your consent)
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Improving Services: to analyze website usage data and improve our services
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Compliance: to comply with laws, regulations, and industry standards
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
+                                                    Sharing Personal Data</h3>
+                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    We may share personal data with:
+                                                </p>
+                                                <ol className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Third-Party Service Providers: to deliver services, such as payment gateways, email marketing tools, or analytics services
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Shopify: to provide Shopify-related services or support
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Law Enforcement: to comply with laws, regulations, or court orders
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Mergers and Acquisitions: in the event of a merger, acquisition, or sale of our assets
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
+                                                    Data Protection and Security</h3>
+                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    We implement various security measures to protect your personal data, including:
+                                                </p>
+                                                <ol className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Encryption: we use encryption to protect data in transit and at rest
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Access Controls: we limit access to personal data to authorized personnel
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Data Backup: we regularly back up data to prevent loss or corruption
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
+                                                    Your Rights</h3>
+                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    You have the right to:
+                                                </p>
+                                                <ol className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Access: request access to your personal data
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Rectification: request correction of inaccurate personal data
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Erasure: request deletion of personal data (subject to applicable laws)
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Restriction: request restriction of processing personal data
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Portability: request transfer of personal data to another controller
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Objection: object to processing personal data for marketing or other purposes
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Withdraw Consent: withdraw consent for processing personal data (where applicable)
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
+                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
+                                                    International Data Transfers</h3>
+                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    We may transfer personal data to countries outside the EU or CA, including the United States. We ensure that such transfers are made in accordance with applicable laws and regulations, such as the EU-US Privacy Shield Framework.
                                                 </p>
                                             </div>
                                             <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
+                                                    Children's Privacy</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
-                                                </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
+                                                    Our website and services are not intended for children under the age of 16. We do not knowingly collect personal data from children under 16.
                                                 </p>
                                             </div>
                                             <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
+                                                    Changes to This Policy</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
-                                                </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
+                                                    We may update this Privacy Policy from time to time. We will notify you of significant changes by posting a notice on our website or sending an email.
                                                 </p>
                                             </div>
                                             <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
+                                                    Contact Us</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
+                                                    If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at:
                                                 </p>
                                                 <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
+                                                    Ecomfidence
+                                                    contact@ecomfidence.com
+                                                </p>
+                                                <h6 className="white mb-xxl-5 mb-3 mt-3" data-aos="fade-left" data-aos-duration={1800}>
+                                                    EU Representative
+                                                </h6>
+                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1750}>
+                                                    Ecomfidence <br />
+                                                    contact@ecomfidence.com
                                                 </p>
                                             </div>
                                             <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
                                                 <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
+                                                    California Consumer Privacy Act (CCPA)</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
+                                                    For California residents, we comply with the CCPA. You have the right to:
                                                 </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
-                                                </p>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
+                                                <ol className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Request Disclosure: request disclosure of personal data collected, sold, or shared
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Request Deletion: request deletion of personal data
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                        <i className="fas fa-chevron-right" /> Opt-Out: opt-out of the sale of personal data
+                                                    </li>
+                                                </ol>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
+                                                    To exercise your CCPA rights, please contact us at contact@ecomfidence.com.
                                                 </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
-                                                </p>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
                                                 <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
-                                                </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
-                                                </p>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
-                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
-                                                </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
-                                                </p>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
-                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
-                                                </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
-                                                </p>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    Guide dog shortage: The blind people who train
-                                                    their</h3>
-                                                <p className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    Proin ultricies ultricies est vitae cursus. Nulla sit amet suscipit tortor.
-                                                    Maecenas dui erat, ornare eget tristique
-                                                    vitae, rutrum pretium justo. Phasellus vitae consequat nisi, quis luctus
-                                                    nisl. Praesent faucibus sem id massa semper
-                                                    ornare. Nam eu magna at mi pellentesque mattis. Morbi at condimentum velit.
-                                                    Phasellus aliquet, leo auctor volutpat
-                                                    ultrices, metus dolor dictum enim, sed convallis lacus urna nec erat.
-                                                </p>
-                                                <p className="pra-clr" data-aos="fade-left" data-aos-duration={1700}>
-                                                    consectetur adipiscing elit. Etiam at mauris accumsan mi pulvinar lacinia a
-                                                    in justo. Ut tempor et libero quis
-                                                    dignissim. Nulla at convallis libero, vitae aliquam leo. Etiam ut augue
-                                                    nibh. In laoreet neque quis ex ornare, quis
-                                                    auctor elit facilisis. Mauris dapibus massa rhoncus ligula luctus vulputate.
-                                                    Fusce condimentum placerat vulputate.
-                                                    Praesent ullamcorper dui in dui sagittis commodo.
+                                                    By using our website or services, you acknowledge that you have read, understood, and agree to this Privacy Policy.
                                                 </p>
                                             </div>
                                         </div>
@@ -320,23 +264,23 @@ export default function PrivacyPolicy() {
                                         Tags:
                                         <ul className="taglist d-flex align-items-center gap-xxl-3 gap-xl-2 gap-1">
                                             <li>
-                                                <Link href="/blog-details" className="tag-clr">
-                                                    Creative
+                                                <Link href="#" className="tag-clr">
+                                                    Privacy Policy
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/blog-details" className="tag-clr">
-                                                    Agency
+                                                <Link href="#" className="tag-clr">
+                                                    Poicy Page
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/blog-details" className="tag-clr">
-                                                    Business
+                                                <Link href="#" className="tag-clr">
+                                                    Important Information
                                                 </Link>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="d-flex align-items-center justify-content-sm-start justify-content-center gap-xxl-4 gap-3">
+                                    {/* <div className="d-flex align-items-center justify-content-sm-start justify-content-center gap-xxl-4 gap-3">
                                         Share:
                                         <ul className="common-social d-flex align-items-center gap-2">
                                             <li data-aos="zoom-in-right" data-aos-duration={1400}>
@@ -368,11 +312,11 @@ export default function PrivacyPolicy() {
                                                 </Link>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             {/* Sidebar */}
-                            <div className="col-12 col-lg-4">
+                            {/* <div className="col-12 col-lg-4">
                                 <div className="blog-right-bar mt-lg-0 mt-4">
                                     <div className="box mb-xxl-10 mb-xl-8 mb-7">
                                         <div className="wid-title" data-aos="fade-left" data-aos-duration={1600}>
@@ -490,7 +434,7 @@ export default function PrivacyPolicy() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
