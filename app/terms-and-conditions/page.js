@@ -6,7 +6,7 @@ export default function TermsAndConditions() {
     return (
         <>
 
-            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Privacy policy">
+            <Layout headerStyle={3} footerStyle={5} breadcrumbTitle="Terms & Conditions">
                 <section className="blog-details pt-space pb-space">
                     <div className="container">
                         <div className="row g-5">
@@ -32,256 +32,665 @@ export default function TermsAndConditions() {
                                             <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
                                                 <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
                                                     1. Website Design and Development Terms</h2>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.1 Design Specifications
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
                                                     <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
+                                                    <i className="fas fa-chevron-right" /> Our standard website development package includes a 5-page design, unless otherwise specified during the initial discussion.
                                                     </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.2 Third-Party Service Providers</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence may collaborate with third-party service providers or contractors during the website development process. This may involve sharing your design brief and website content to ensure a seamless development experience.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.3 Backup of Existing Website</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> It is the client's responsibility to create a backup of their existing website, including design, content files, databases, and scripts. Ecomfidence can assist with this process at our standard commercial rates.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.4 Client's Responsibility Towards Content</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence is dedicated to redesigning your website, but we do not endorse, verify, or certify the content provided by the client. The client is solely responsible for ensuring that the content complies with all legal and ethical standards.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> The client must provide all content to be integrated into the website design within one calendar month of the invoice generation or project commencement. Failure to do so may result in administrative hold or project cancellation, subject to cancellation fees.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> The client is responsible for ensuring they have the digital copyrights for any images provided for use in the website design.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.5 Client's Responsibility Towards Design</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Clients are expected to provide detailed feedback on the new design within 10 calendar days. If no feedback is received, Ecomfidence will assume no changes are required and proceed with the website launch. Any subsequent changes will be billed at our standard rate of $80 per hour.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Additional layout concepts are available at a cost of $150 per layout, payable upfront.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.6 Template-Based Design Terms</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Template-Based Design services are non-refundable and non-transferable. They are offered as part of a package deal and cannot be redeemed for cash or other services.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> These services are exclusively available for domain names hosted by Ecomfidence's hosting service in the 'Business Hosting' category or higher.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Design templates cannot be modified, and clients can only provide text and images for integration.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.7 Changes and Revisions</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Minor cosmetic errors or bugs reported within 30 days of website publication will be rectified by Ecomfidence at no extra cost.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Any changes, alterations, or bug fixes requested after 30 days will be billed at $80 per hour or part thereof.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Up to 10 changes can be made during the review process at no additional cost. Additional changes will incur the standard hourly rate.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.8 Payment Terms</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Static website design services require full payment in advance. Cancellation before production incurs a $300 cancellation fee, and cancellation after publication results in a 100% project cost fee with no refund.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> For CMS and eCommerce website design, 50% payment is due in advance, and the balance is payable after design selection and before production. Cancellation before production incurs a $300 fee, and cancellation after publication results in a 100% project cost fee with no refund.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.9 Merchant Facility for eCommerce Websites</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Clients are responsible for obtaining a merchant facility for their eCommerce website from a bank. Ecomfidence is not liable for this process.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.10 Technical Compatibility</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Clients must ensure that the website is hosted on a server that meets Ecomfidence's development server specifications. We are not liable for any errors or loss of functionality due to server incompatibility.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.11 Training</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Post-website completion, training is available at $80 per hour for telephonic sessions and $550 per day for face-to-face training within the Sydney metro area. For clients outside this area, additional travel, lodging, and boarding costs will apply.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.12 Website Security</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence guarantees that the code provided will be free from viruses, malware, and software breaches. Once the website is published on the client's servers, the client is responsible for its security.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.13 Project Hold</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Clients can request a project hold for up to 6 months with a one-time payment of $100. If the hold exceeds 6 months, Ecomfidence may terminate the project without refunding any previous payments.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    2. Project Terms and Conditions</h2>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.1 Understanding</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Clients should communicate unique requirements, anticipated challenges, and complex details to Ecomfidence to manage expectations effectively. Vague requirements may lead to discrepancies, affecting deadlines and incurring additional costs.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.2 Scope Creep</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> All requirements must be clearly defined and will be documented in a proposal with cost and time estimates. Any subsequent additions or changes will incur additional costs and affect the delivery date.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.3 Managing Expectations</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Clients should communicate unique requirements, anticipated challenges, and complex details to Ecomfidence to manage expectations effectively. Vague requirements may lead to discrepancies, affecting deadlines and incurring additional costs.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.4 Unforeseen Circumstances</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence will strive to minimize delays due to unforeseen circumstances beyond our control. We will work to minimize these delays but cannot be held liable for them.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.5 Third-Party Components</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence is not responsible for the functionality of third-party products, software, or components integrated into the website. Clients are advised to take regular backups to minimize downtime.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.6 Copyrights</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence CMS is a proprietary product, and Ecomfidence retains the copyrights to all code written for the client. The CMS cannot be transferred to an external host, and clients cannot access the software codes without a formal agreement.
-                                                    </li>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence reserves the right to use custom-built software for the client's project, which is included in the project costs unless specified otherwise.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.7 Domain and Hosting</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Domain registration and hosting charges are not included in project costs unless stated otherwise. Ecomfidence can provide hosting solution references and quotations upon request.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.8 Hosting Solutions</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> If clients arrange a third-party hosting provider, Ecomfidence must be involved in the hosting and database selection process. Full access to hosting servers is required for testing and deployment, and Ecomfidence is not liable for issues caused by the hosting company.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.9 Test Access</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence reserves the right to deny clients or third parties access to its test servers.
-                                                    </li>
-                                                </ul>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    2.10 Tech Support</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Ecomfidence provides technical support for a period of 30 days after website launch. Additional support can be purchased at $80 per hour.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    3. Ownership and Intellectual Property</h2>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    4. Disputes, Liability, and Indemnity</h2>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    5. Payment and Refund Terms</h2>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    6. Additional Terms</h2>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="mb-xxl-13 mb-xl-10 mb-lg-8 mb-7">
-                                                <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1600}>
-                                                    7. Image Use Policy</h2>
-                                                <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
-                                                    1.1 Design Specifications</h3>
-                                                <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
-                                                    <li className="d-flex align-items-center gap-2">
-                                                        <i className="fas fa-chevron-right" /> Our standard website development package includes a 3-page design, unless otherwise specified during the initial discussion.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            
+                                                    </ul>
 
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.2 Third-Party Service Providers
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence may collaborate with third-party service providers or contractors during the website development process. This may involve sharing your design brief and website content to ensure a seamless development experience.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.3 Backup of Existing Website
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> It is the client's responsibility to create a backup of their existing website, including design, content files, databases, and scripts. Ecomfidence can assist with this process at our standard commercial rates.
+                                                    </li>
+                                                    </ul>
+
+                                                    {/* ... (continue with the rest of the terms and conditions) ... */}
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.4 Client's Responsibility Towards Content
+                                                    </h3>
+                                                    {/* ... and so on for each section and subsection */}
+                                                    </div>
+                                                    ```
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.6 Template-Based Design Terms
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Template-based designs are non-refundable and non-transferable.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Templates are for Ecomfidence-hosted domains in the 'Business Hosting' category or higher.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients can only provide text and images for template designs.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.7 Changes and Revisions
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Minor errors reported within 30 days of publication will be fixed free of charge.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Changes after 30 days will be billed at $80/hour, with 10 changes allowed during the review at no extra cost.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.8 Payment Terms
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Static websites require full payment in advance, with a $300 cancellation fee before production and 100% cost after publication.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> CMS and eCommerce sites require 50% upfront, with the balance due before production. Cancellation fees apply as above.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.9 Merchant Facility for eCommerce Websites
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients are responsible for obtaining a merchant facility for eCommerce from a bank.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.10 Technical Compatibility
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients must ensure their server meets Ecomfidence's requirements. We are not liable for incompatibility.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.11 Training
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Post-launch training is available at $80/hour for online sessions.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.12 Website Security
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence guarantees secure code. Clients are responsible for security after publication.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients providing third-party plugins are responsible for any security issues they introduce.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    1.13 Project Hold
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients can request a hold for up to 6 months with a $100 fee. Longer holds may result in termination without refunds.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2. Project Terms and Conditions
+                                                    </h2>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.1 Understanding
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients should communicate unique requirements to ensure project success.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.2 Scope Creep
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> All requirements must be defined, with changes incurring additional costs.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.3 Managing Expectations
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients should communicate challenges to ensure realistic expectations.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.4 Unforeseen Circumstances
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence will try to minimize delays from unforeseen events but is not liable for them.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.5 Third-Party Components
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence is not responsible for third-party product functionality. Clients should maintain backups.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.6 Copyrights
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence owns all copyrights unless purchased. Custom software is included in project costs.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence CMS is proprietary and cannot be transferred without an agreement.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.7 Domain and Hosting
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Domain and hosting charges are extra unless stated. Ecomfidence can provide hosting references.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.8 Hosting Solutions
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> For third-party hosting, Ecomfidence must be involved in server selection. Full access is required, and we are not liable for hosting issues.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.9 Test Access
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence may restrict access to test servers.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    2.10 Tech Support
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Technical support is provided for 30 days post-launch, with additional support at $80/hour.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    3. Ownership and Intellectual Property
+                                                    </h2>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    3.1 Content
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence owns all content unless stated, with the right to modify without notice.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    3.2 Copyrights
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence owns all copyrights unless purchased.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    3.3 Credits
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> New owners inherit copyrights with the same restrictions in case of business changes.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    3.4 Confidentiality and Approval Policy
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence shares materials for approval, which are confidential.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h4 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    Client Obligations
+                                                    </h4>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients must not use or share confidential materials without consent.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h4 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    Restrictions on Use
+                                                    </h4>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients must not share materials on social media or online.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Materials cannot be used in marketing or displayed publicly.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h4 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    Consequences of Breach
+                                                    </h4>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence may terminate the project and seek damages for unauthorized use.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4. Disputes, Liability, and Indemnity
+                                                    </h2>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.1 Dispute Resolution
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> In disputes, clients must pay for work done and dispute management.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.2 Limitation of Liability
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence is not liable for indirect or consequential losses.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.3 Force Majeure
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence is not liable for breaches or disruptions due to uncontrollable events.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.4 Notices
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Notices can be sent via email, fax, or post, with specific delivery terms.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.5 Severability
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Invalid clauses do not affect the rest of the agreement.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.6 Assignment
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients cannot assign the agreement without consent and transfer fees.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.7 Change to Terms on Renewal
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Renewals are subject to changing terms.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.8 Entirety of Agreement
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> This agreement supersedes all prior agreements.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.9 Governing Law and Jurisdiction
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> The agreement is governed by state laws, with disputes subject to the courts of that state.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.10 Joint Liability
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Liability applies to each and all partners in a client company.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    4.11 Consent to Communications
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients consent to communications, with opt-out options for general messages.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5. Payment and Refund Terms
+                                                    </h2>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.1 Currency
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> All rates are in USD, excluding taxes unless stated.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.2 Mode of Payment
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients choose the payment method, but invoices must be processed as scheduled.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.3 Standard Payment Mode for International Clients
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> International wire transfers are accepted, with transaction costs covered by the client.
+                                                    </li>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Online marketplace payments are accepted, with platform fees borne by the client.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.4 Milestone Payments
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Milestone payments are due within 5 working days, before the website launch.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.5 Project Schedule
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> The schedule may change based on feedback during the project.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.6 Acceptance
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Payment indicates acceptance of the quote and schedules.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.7 Refund Terms
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Refunds vary, with a maximum of 75% before work starts, 50% after commencement, and none after completion.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.8 Cancellation Requests
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Cancellations must be made in writing via email.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.9 Minor Projects
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Minor projects require full payment in advance, with changes requested in writing within 2 days.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.10 Late Payments and Outstanding Invoices
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Non-payment may lead to debt collection, with associated costs.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.11 Communication
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> All communication is via email, and clients must keep their email addresses updated.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.12 Payment for Third-Party Services
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Payments for domain, hosting, and third-party services are non-refundable and due in advance. Cancellations require 30-day written notice.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    5.13 Hosting
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> For third-party hosting, Ecomfidence will transfer the website after full payment.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    6. Additional Terms
+                                                    </h2>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    6.1 Communication and Documentation
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence communicates and documents in English.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    6.2 Custom-Built Software
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence may use custom software, included in project costs unless specified.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    6.3 Proposal Validity
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Proposals are valid for 15 days, and approvals after this should be reconfirmed.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    6.4 Project Closure or Termination
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Ecomfidence will request payment for work done before closing or terminating projects.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    6.5 Refunds
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Refunds are not provided unless mutually agreed.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    6.6 Payment Changes
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients should communicate payment changes through a revised PO.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h2 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7. Image Use Policy
+                                                    </h2>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.1 Purpose
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> This policy ensures legal and compliant image use.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.2 Scope
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> The policy applies to all Ecomfidence teams.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.3 Responsibilities
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Sales staff should inform clients about the policy and image sources.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.4 Image Source Requirements
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Clients must confirm ownership or permissions for images in writing.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.5 Best Practices
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Verify copyright status and obtain permissions to avoid issues.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.6 Client Communication
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Communicate the policy and obtain client confirmation during project start.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.7 Regular Audits
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Conduct audits to ensure policy compliance.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.8 Compliance
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> Non-compliance may result in disciplinary action, including termination.
+                                                    </li>
+                                                    </ul>
+
+                                                    <h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+                                                    7.9 Review
+                                                    </h3>
+                                                    <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+                                                    <li className="d-flex align-items-center gap-2">
+                                                    <i className="fas fa-chevron-right" /> The policy is reviewed annually to stay updated.
+                                                    </li>
+                                                    </ul>
 
 
 
