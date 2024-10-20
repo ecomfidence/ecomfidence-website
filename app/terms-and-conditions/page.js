@@ -108,7 +108,6 @@ export default function TermsAndConditions() {
                           </li>
                         </ul>
 
-                        {/* ... (continue with the rest of the terms and conditions) ... */}
 
                         <h3
                           className="white mb-xxl-5 mb-3"
@@ -117,9 +116,33 @@ export default function TermsAndConditions() {
                         >
                           1.4 Client's Responsibility Towards Content
                         </h3>
-                        {/* ... and so on for each section and subsection */}
-                      </div>
-                      ```
+                        <ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+<li className="d-flex align-items-center gap-2">
+<i className="fas fa-chevron-right" /> Ecomfidence is not responsible for the content provided by the client. Clients must ensure content complies with legal and ethical standards.
+</li>
+<li className="d-flex align-items-center gap-2">
+<i className="fas fa-chevron-right" /> Content should be delivered within one month of the project start, or it may result in delays.
+</li>
+<li className="d-flex align-items-center gap-2">
+<i className="fas fa-chevron-right" /> Clients must own digital copyrights for provided images.
+</li>
+</ul>
+
+<h3 className="white mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1550}>
+1.5 Client's Responsibility Towards Design
+</h3>
+<ul className="pra-clr mb-xxl-5 mb-3" data-aos="fade-left" data-aos-duration={1700}>
+<li className="d-flex align-items-center gap-2">
+<i className="fas fa-chevron-right" /> Clients have 10 days to provide design feedback; otherwise, it will be considered final.
+</li>
+<li className="d-flex align-items-center gap-2">
+<i className="fas fa-chevron-right" /> Changes after the initial feedback period will be billed at $80/hour.
+</li>
+<li className="d-flex align-items-center gap-2">
+<i className="fas fa-chevron-right" /> Additional layouts are available for $150 each, payable upfront.
+</li>
+</ul>
+                      
                       <h3
                         className="white mb-xxl-5 mb-3"
                         data-aos="fade-left"
@@ -309,9 +332,7 @@ export default function TermsAndConditions() {
                         data-aos-duration={1700}
                       >
                         <li className="d-flex align-items-center gap-2">
-                          <i className="fas fa-chevron-right" /> Clients should
-                          communicate unique requirements to ensure project
-                          success.
+                          <i className="fas fa-chevron-right" /> Clients should communicate unique requirements to manage expectations. Vague requirements may lead to issues and additional costs.
                         </li>
                       </ul>
                       <h3
@@ -1333,6 +1354,7 @@ export default function TermsAndConditions() {
                           reviewed annually to stay updated.
                         </li>
                       </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
