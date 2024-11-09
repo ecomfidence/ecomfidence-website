@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ContactForm2 from "../elements/ContactForm2";
 
 export default function ContactDetailEcom() {
@@ -9,22 +10,27 @@ export default function ContactDetailEcom() {
                         {/* Phone */}
                         <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={1400}>
                             <div className="contact-sub-info bg1-clr text-center">
-                                <svg width={54} height={54} viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {/* <svg width={54} height={54} viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M51.925 42.825C51.925 43.725 51.725 44.65 51.3 45.55C50.875 46.45 50.325 47.3 49.6 48.1C48.375 49.45 47.025 50.425 45.5 51.05C44 51.675 42.375 52 40.625 52C38.075 52 35.35 51.4 32.475 50.175C29.6 48.95 26.725 47.3 23.875 45.225C21 43.125 18.275 40.8 15.675 38.225C13.1 35.625 10.775 32.9 8.7 30.05C6.65 27.2 5 24.35 3.8 21.525C2.6 18.675 2 15.95 2 13.35C2 11.65 2.3 10.025 2.9 8.525C3.5 7 4.45 5.6 5.775 4.35C7.375 2.775 9.125 2 10.975 2C11.675 2 12.375 2.15 13 2.45C13.65 2.75 14.225 3.2 14.675 3.85L20.475 12.025C20.925 12.65 21.25 13.225 21.475 13.775C21.7 14.3 21.825 14.825 21.825 15.3C21.825 15.9 21.65 16.5 21.3 17.075C20.975 17.65 20.5 18.25 19.9 18.85L18 20.825C17.725 21.1 17.6 21.425 17.6 21.825C17.6 22.025 17.625 22.2 17.675 22.4C17.75 22.6 17.825 22.75 17.875 22.9C18.325 23.725 19.1 24.8 20.2 26.1C21.325 27.4 22.525 28.725 23.825 30.05C25.175 31.375 26.475 32.6 27.8 33.725C29.1 34.825 30.175 35.575 31.025 36.025C31.15 36.075 31.3 36.15 31.475 36.225C31.675 36.3 31.875 36.325 32.1 36.325C32.525 36.325 32.85 36.175 33.125 35.9L35.025 34.025C35.65 33.4 36.25 32.925 36.825 32.625C37.4 32.275 37.975 32.1 38.6 32.1C39.075 32.1 39.575 32.2 40.125 32.425C40.675 32.65 41.25 32.975 41.875 33.4L50.15 39.275C50.8 39.725 51.25 40.25 51.525 40.875C51.775 41.5 51.925 42.125 51.925 42.825Z" stroke="#E3FF04" strokeWidth={4} strokeMiterlimit={10} />
                                     <path d="M37.5742 16.4252L46.4242 7.5752" stroke="#E3FF04" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
                                     <path d="M46.4242 16.4252L37.5742 7.5752" stroke="#E3FF04" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
-                                </svg>
+                                </svg> */}
+                                <i className="fa-brands fa-whatsapp" style={{ color: '#E3FF04', fontSize: 54}}></i>
                                 <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
-                                    Phone &amp; WhatsApp
+                                    WhatsApp
                                 </h5>
-                                <span className="msub d-block mb-2">
-                                    Mobile : +197 -90 - 56 - 780
-                                </span>
-                                <span className="msub">
+                                <Link href={"https://wa.me/923326663723"}>
+                                    <span className="msub d-block mb-2 textp flink-items">
+                                        +92-332-666-3723
+                                    </span>
+                                </Link>
+                                <p className="text-secondary">Only For Messages</p>
+                                {/* <span className="msub">
                                     Fax : +44-208-1234567
-                                </span>
+                                </span> */}
                             </div>
                         </div>
+                        {/* Email */}
                         <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={1600}>
                             <div className="contact-sub-info bg1-clr text-center">
                                 <svg width={69} height={54} viewBox="0 0 69 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,14 +39,17 @@ export default function ContactDetailEcom() {
                                 <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
                                     email
                                 </h5>
-                                <span className="msub d-block mb-2">
-                                    contact@ecomfidence.com
-                                </span>
+                                <Link href={"mailto: contact@ecomfidence.com"}>
+                                    <span className="msub d-block mb-2 textp flink-items">
+                                        contact@ecomfidence.com
+                                    </span>
+                                </Link>
                                 {/* <span className="msub">
                                     Info.company@yahoo.com
                                 </span> */}
                             </div>
                         </div>
+                        {/* Location */}
                         <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={1800}>
                             <div className="contact-sub-info bg1-clr text-center">
                                 <svg width={38} height={50} viewBox="0 0 38 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +58,7 @@ export default function ContactDetailEcom() {
                                 <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
                                     Our Location
                                 </h5>
-                                <span className="msub d-block mb-2">
+                                <span className="msub d-block mb-2 textp flink-items">
                                     Pakistan
                                 </span>
                                 {/* <span className="msub">
@@ -65,10 +74,10 @@ export default function ContactDetailEcom() {
                                 <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
                                     Contact Hour
                                 </h5>
-                                <span className="msub d-block mb-2">
+                                <span className="msub d-block mb-2 textp flink-items">
                                     Sun - Sat
                                 </span>
-                                <span className="msub">
+                                <span className="msub textp flink-items">
                                     7 Am - 10 Pm
                                 </span>
                             </div>

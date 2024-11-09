@@ -31,7 +31,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                 <span className="address d-block">
                                     Email
                                 </span>
-                                <Link href="/javascript:void(0)" className="textp flink-items">
+                                <Link href="mailto:contact@ecomfidence.com" className="textp flink-items">
                                     contact@ecomfidence.com
                                 </Link>
                             </div>
@@ -41,8 +41,8 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                 <span className="address d-block">
                                     WhatsApp
                                 </span>
-                                <Link href="/jasacript:void(0)" className="textp flink-items">
-                                    +996 1425 7471 0.2
+                                <Link href="https://wa.me/923326663723" className="textp flink-items">
+                                    +92-332-666-3723
                                 </Link>
                             </div>
                         </div>
