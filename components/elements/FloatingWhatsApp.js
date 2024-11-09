@@ -14,10 +14,12 @@ const FloatingWhatsAppComponent = () => {
             darkMode='true'
             allowEsc
             // allowClickAway
-            notification
-            notificationSound
+            notification='true'
+            notificationDelay='2'
+            notificationSound='true'
             // chatboxStyle={{ backgroundColor: '#25D366' }}
             buttonStyle={{ bottom:'100px'}}
+            avatar='/assets/img/whatsapp/ecomfidence_customer_support.webp'
             />
     );
 };
