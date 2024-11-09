@@ -10,7 +10,7 @@ export default function ServiceEcom() {
     return (
         <>
 
-            <section className="service-section pt-space pb-space bg1-clr">
+            <section id='services' className="service-section pt-space pb-space bg1-clr">
                 <div className="container position-relative">
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-17 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="pricing-title">

@@ -6,7 +6,7 @@ export default function StepWorking1() {
     return (
         <>
 
-            <section className="working-sectionv04 pt-space pb-space position-relative bg2-clr">
+            <section id="process" className="working-sectionv04 pt-space pb-space position-relative bg2-clr">
                 <div className="container">
                     <div className="row justify-content-between g-4 mb-xxl-17 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="col-lg-7">
