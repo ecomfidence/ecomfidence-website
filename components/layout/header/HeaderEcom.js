@@ -12,7 +12,7 @@ export default function HeaderEcom({ scroll, isMobileMenu, handleMobileMenu, isS
                             <div className="d-lg-flex flex-xl-nowrap flex-wrap align-items-center justify-content-lg-between">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <Link href="/" className="brand-logo">
-                                        <img className="w-75" src="assets/img/logo/ecomfidence-logo.svg" alt="logo" />
+                                        <img src="assets/img/logo/ecomfidence-logo.svg" alt="logo" />
                                     </Link>
                                     <button className={`navbar-toggle-btn d-block d-lg-none ${isMobileMenu ? "open" : ""}`} type="button" onClick={handleMobileMenu}>
                                         <span />

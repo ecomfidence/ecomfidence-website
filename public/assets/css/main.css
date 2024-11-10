@@ -760,6 +760,31 @@ footer {
     }
 }
 
+/* Mobile View */
+@media (max-width: 576px) {
+    .header-section .brand-logo img {
+        width: 200%; /* Adjust as needed for mobile size */
+        max-width: 220px; /* Cap the size if necessary */
+    }
+}
+
+/* Tablet View */
+@media (min-width: 577px) and (max-width: 991px) {
+    .header-section .brand-logo img {
+        width: 200%; /* Adjust as needed for tablet size */
+        max-width: 220px;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+    .header-section .brand-logo img {
+        width: 200%; /* Use full size on desktop */
+        max-width: 220px; /* Limit max size if needed */
+    }
+}
+
+
 @media (max-width: 767px) {
     .header-section .search-toggle-box {
         display: none;
