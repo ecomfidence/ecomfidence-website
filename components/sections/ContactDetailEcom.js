@@ -19,9 +19,9 @@ export default function ContactDetailEcom() {
                                 <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
                                     WhatsApp
                                 </h5>
-                                <Link href={"https://wa.me/923326663723"}>
+                                <Link href={"https://wa.me/920000000000"}>
                                     <span className="msub d-block mb-2 textp flink-items">
-                                        +92-332-666-3723
+                                        +92-000-000-0000
                                     </span>
                                 </Link>
                                 <p className="text-secondary">Only For Messages</p>

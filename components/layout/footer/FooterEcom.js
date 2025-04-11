@@ -106,7 +106,7 @@ export default function FooterEcom() {
                                     </h5>
                                     <ul className="link-footer d-grid gap-xxl-5 gap-4" data-aos="zoom-in" data-aos-duration={1400}>
                                         <li>
-                                            <Link href="https://api.whatsapp.com/send/?phone=923326663723&text=I%20want%20high%20converting%20Shopify%20Store" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="https://api.whatsapp.com/send/?phone=920000000000&text=I%20want%20high%20converting%20Shopify%20Store" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -114,7 +114,7 @@ export default function FooterEcom() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://api.whatsapp.com/send/?phone=923326663723&text=I%20want%20to%20migrate%20my%20Shopify%20Store" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="https://api.whatsapp.com/send/?phone=920000000000&text=I%20want%20to%20migrate%20my%20Shopify%20Store" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -122,7 +122,7 @@ export default function FooterEcom() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://api.whatsapp.com/send/?phone=923326663723&text=I%20want%20to%20optimize%20my%20Shopify%20Store" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="https://api.whatsapp.com/send/?phone=920000000000&text=I%20want%20to%20optimize%20my%20Shopify%20Store" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -130,7 +130,7 @@ export default function FooterEcom() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="https://api.whatsapp.com/send/?phone=923326663723&text=I%20want%20to%20customize%20my%20Shopify%20Theme" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="https://api.whatsapp.com/send/?phone=920000000000&text=I%20want%20to%20customize%20my%20Shopify%20Theme" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>

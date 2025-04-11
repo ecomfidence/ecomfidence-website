@@ -41,8 +41,8 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                 <span className="address d-block">
                                     WhatsApp
                                 </span>
-                                <Link href="https://wa.me/923326663723" className="textp flink-items">
-                                    +92-332-666-3723
+                                <Link href="https://wa.me/920000000000" className="textp flink-items">
+                                    +92-000-000-0000
                                 </Link>
                             </div>
                         </div>
