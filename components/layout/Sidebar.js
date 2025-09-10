@@ -36,7 +36,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                 </Link>
                             </div>
                         </div>
-                        <div className="sub__contac-item">
+                        {/* <div className="sub__contac-item">
                             <div className="content">
                                 <span className="address d-block">
                                     WhatsApp
@@ -45,7 +45,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     +92-000-000-0000
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <SocialLinksEcom1 />
                     <Link href="/contact" className="d-flex cmn-btn cmn-border justify-content-center fw-500 align-items-center gap-2 py-xl-3 py-2 px-2 rounded">

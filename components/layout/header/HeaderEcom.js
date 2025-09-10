@@ -25,12 +25,12 @@ export default function HeaderEcom({ scroll, isMobileMenu, handleMobileMenu, isS
                                     <Menu />
                                 </div>
                                 <div className="d-lg-flex d-grid justify-content-center ph-clickwrap align-items-center gap-xxl-7 gap-xl-6 gap-lg-5 gap-3">
-                                    <Link href="https://wa.me/920000000000" className="d-flex align-items-center header-ph gap-2 d-none d-sm-block border-5 hover">
+                                    {/* <Link href="https://wa.me/920000000000" className="d-flex align-items-center header-ph gap-2 d-none d-sm-block border-5 hover">
                                         <i className="fa-brands fa-whatsapp" style={{ color: 'white', fontSize: 24}}></i>
                                         <span className="stext p-2">
                                             +92-000-000-0000
                                         </span>
-                                    </Link>
+                                    </Link> */}
                                     <div className="remove-click remove-clickbg-adding d-center m-auto theme-clr" onClick={handleSidebar}>
                                         <i className="fa-regular fa-address-card" />
                                     </div>
