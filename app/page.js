@@ -10,6 +10,7 @@ import StepWorkingEcom from "@/components/sections/StepWorkingEcom"
 import ProtfolioEcom from "@/components/sections/ProtfolioEcom"
 import TeamEcom from "@/components/sections/TeamEcom"
 import Testimonial4 from "@/components/sections/Testimonial4"
+import TeamEcom1 from "@/components/sections/TeamEcom1"
 export default function Home() {
 
     return (
@@ -25,7 +26,7 @@ export default function Home() {
                     <ServiceEcom />
                     <StepWorkingEcom />
                     <ProtfolioEcom />
-                    <TeamEcom />
+                    <TeamEcom1 />
                 </div>
             </Layout>
         </>
