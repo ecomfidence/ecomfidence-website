@@ -40,7 +40,7 @@ export default function TeamEcom1() {
                         <Tilt options={toltOptions} className="col-xl-3 col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in-left" data-aos-duration={1400}>
                             <div className="team-common-item tilt">
                                 <div className="thumb position-relative overflow-hidden w-100">
-                                    <img src="/assets/img/team/team12.png" alt="img" className="overflow-hidden w-100" />
+                                    <img src="/assets/img/team/team12.webp" alt="img" className="overflow-hidden w-100" />
                                     <div className="namebox py-xxl-5 py-xl-4 py-sm-3 py-2 px-3 text-center">
                                         <span className="text-uppercase white-clr d-block mb-2">
                                             Ceo
@@ -96,7 +96,7 @@ export default function TeamEcom1() {
                         <Tilt options={toltOptions} className="col-xl-3 col-lg-4 col-md-6 col-sm-6" data-aos="zoom-in-left" data-aos-duration={1600}>
                             <div className="team-common-item tilt">
                                 <div className="thumb position-relative overflow-hidden w-100">
-                                    <img src="/assets/img/team/team2.png" alt="img" className="overflow-hidden w-100" />
+                                    <img src="/assets/img/team/team13.webp" alt="img" className="overflow-hidden w-100" />
                                     <div className="namebox py-xxl-5 py-xl-4 py-sm-3 py-2 px-3 text-center">
                                         <span className="text-capitalize white-clr d-block mb-2">
                                             Project Manager
