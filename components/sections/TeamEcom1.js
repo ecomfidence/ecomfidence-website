@@ -47,7 +47,7 @@ export default function TeamEcom1() {
                                         </span>
                                         <h5>
                                             <Link href="#" className="htheme white-clr">
-                                                Ahmed Raza
+                                                A. Raza
                                             </Link>
                                         </h5>
                                     </div>
@@ -99,11 +99,11 @@ export default function TeamEcom1() {
                                     <img src="/assets/img/team/team2.png" alt="img" className="overflow-hidden w-100" />
                                     <div className="namebox py-xxl-5 py-xl-4 py-sm-3 py-2 px-3 text-center">
                                         <span className="text-capitalize white-clr d-block mb-2">
-                                            Shopify Expert
+                                            Project Manager
                                         </span>
                                         <h5>
                                             <Link href="#" className="htheme white-clr">
-                                                Adam
+                                                M. Tariq
                                             </Link>
                                         </h5>
                                     </div>
