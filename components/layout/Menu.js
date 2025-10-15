@@ -46,6 +46,9 @@ export default function Menu() {
                     <Link href="/about" className="fw_500 white-clr">About</Link>
                 </li>
                 <li className="menu-item position-relative">
+                    <Link href="https://shop.ecomfidence.com" className="fw_500 white-clr">Shop</Link>
+                </li>
+                <li className="menu-item position-relative">
                     <Link href="/contact" className="fw_500">
                         Contact Us
                     </Link>
